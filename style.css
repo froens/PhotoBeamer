@@ -1,0 +1,64 @@
+/* For Index */
+html, body {
+  height: 100%;
+  padding-top: 30px; 
+}
+
+.navbar-center
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    height:100%;
+}
+
+.navbar-brand-centered h3{margin:0;margin-left: -30px;margin-top:-2px}
+  .navbar>.container .navbar-brand-centered,
+  .navbar>.container-fluid .navbar-brand-centered {
+      margin-left: -80px;
+  }
+
+/*body {
+  background-image: url("background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}*/
+
+.vertical-center {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 15px 0 0 0;
+}
+
+/* For Gallery  */
+.img-thumbnail {
+  object-fit: cover;
+  height: 100px;
+  width: 100%;
+  border: none;
+  background: none;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
