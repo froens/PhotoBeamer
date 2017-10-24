@@ -3,12 +3,10 @@ var azure = require('azure-storage');
 var imageMapper = require('../lib/imageMapper');
 const uuidv1 = require('uuid/v1');
 
-var CONNECTION_STRING = "XXX";
-
 var IMAGES_TABLE = 'images';
 var IMAGES_PARTITION_KEY = 'images';
 
-var tableSvc = azure.createTableService(CONNECTION_STRING);
+var tableSvc = azure.createTableService();
 
 tableSvc.createTableIfNotExists('images', function (error, result, response) {
     if (!error) {

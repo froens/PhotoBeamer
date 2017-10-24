@@ -2,9 +2,7 @@
 var azure = require('azure-storage');
 const uuidv1 = require('uuid/v1');
 
-var CONNECTION_STRING = "XXX";
-
-var blobSvc = azure.createBlobService(CONNECTION_STRING);
+var blobSvc = azure.createBlobService();
 
 function BlobRepository(containerName) {
 

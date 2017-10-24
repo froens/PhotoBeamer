@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/froens/PhotoBeamer#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "azure-storage": "^2.6.0",
+    "formidable": "^1.1.1",
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"

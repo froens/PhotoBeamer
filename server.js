@@ -3,6 +3,11 @@ app = express(),
 port = process.env.PORT || 3000,
 bodyParser = require('body-parser'); 
 
+if (process.env.NODE_ENV == 'local') {
+    console.log("Running locally");
+    require('dotenv').load();
+}
+
 app.use("/static", express.static("css"));
 app.use("/static", express.static("images"));
 app.use("/static", express.static("templates"));
