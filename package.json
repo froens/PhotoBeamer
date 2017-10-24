@@ -1,0 +1,25 @@
+{
+  "name": "photobeamer",
+  "version": "1.0.0",
+  "description": "PhotoBeamer",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/froens/PhotoBeamer.git"
+  },
+  "author": "Frederik Østerbye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/froens/PhotoBeamer/issues"
+  },
+  "homepage": "https://github.com/froens/PhotoBeamer#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

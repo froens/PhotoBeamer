@@ -21,13 +21,13 @@ html, body {
       margin-left: -80px;
   }
 
-/*body {
+body {
   background-image: url("background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}*/
+}
 
 .vertical-center {
   height: 100%;
