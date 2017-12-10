@@ -4,7 +4,7 @@
   "description": "PhotoBeamer",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "NODE_ENV=local nodemon server.js"
   },
   "repository": {
     "type": "git",

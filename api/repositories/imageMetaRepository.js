@@ -17,8 +17,7 @@ tableSvc.createTableIfNotExists('images', function (error, result, response) {
 module.exports = {
 
     list: function (callback) {
-        var query = new azure.TableQuery()
-        .top(5);
+        var query = new azure.TableQuery();
 
         tableSvc.queryEntities(IMAGES_TABLE, query, null, function(error, result, response) {
             var res = [];
